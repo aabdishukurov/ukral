@@ -29,10 +29,3 @@ const userSlice = createSlice({
 
 export const { setINN, setPassword } = userSlice.actions;
 
-// const store = configureStore({
-//     reducer: {
-//         user: userSlice.reducer,
-//     },
-// });
-
-// export default store;
